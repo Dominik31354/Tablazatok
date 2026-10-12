@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+table,td {
+    border: 2px solid gray;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+table{
+    border: 3px solid black;
+    border-top:none;
+}
+
+td, th{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom:none ;
+}
+th{
+    text-align: left;
+}
+thead{
+    background-color: lightskyblue;
+    
+}
+.kek{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 3px solid black;
+    border-bottom: none;
+}
+.cim{
+    padding: 20px;
+}
+tfoot{
+    border-top: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
