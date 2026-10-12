@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: darkred;
+    margin: auto;
+    text-align: center;
+
+td, th{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+}
+table{
+    width: 80%;
+    margin: auto;
+    border: none
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
